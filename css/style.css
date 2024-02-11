@@ -401,7 +401,7 @@ body{
 }
 
 .contacts__text{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 70px;
 }
@@ -464,7 +464,8 @@ body{
 }
 
 @media (max-width: 1200px){
-    .why__img{
+    .why__img,
+    .contacts__img{
         max-width: 470px;
     }
 }
@@ -571,6 +572,11 @@ body{
         font-size: 18px;
     }
 
+    .contacts__img{
+        max-width: 375px;
+        max-height: 555px;
+    }
+
 }
 
 @media (max-width: 900px){
@@ -634,6 +640,10 @@ body{
     
     .accordeon__title{
         font-size: 18px;
+    }
+
+    .contacts__text{
+        font-size: 20px;
     }
 
 }
@@ -716,7 +726,8 @@ body{
     }
 
     .header__content__img,
-    .why__img{
+    .why__img,
+    .contacts__img{
         max-width: 350px;
         max-height: 387px;
     }
@@ -829,6 +840,10 @@ body{
         font-size: 16px;
     }
 
+    .contacts__text{
+    margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 680px) {
@@ -902,7 +917,8 @@ body{
         text-align: center;
     }
 
-    .why__img{
+    .why__img,
+    .contacts__img{
         max-width: 225px;
     }
 
@@ -945,6 +961,15 @@ body{
         font-size: 22px;
     }
 
+    .contacts__text{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .contacts__info{
+        font-size: 16px;
+    }
+
 }
 
 @media (max-width: 600px){
@@ -960,12 +985,23 @@ body{
     .accordeon__item{
         margin-bottom: 36px;
     }
+
+    .contacts__text{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .contacts__info{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 550px){
     
-    .why__img{
+    .why__img,
+    .contacts__img{
         max-width: 170px;
+        max-height: 215px;
     }
 
     .why__inner-item.pl--60{
@@ -1022,11 +1058,18 @@ body{
         font-size: 18px;
     }
 
+    .contacts__text{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
 }
 
 @media (max-width: 470px){
-    .why__img{
+    .why__img,
+    .contacts__img{
         max-width: 140px;
+        max-height: 185px;
     }
 
     .why__text{
@@ -1069,6 +1112,11 @@ body{
 
     .accordeon__title{
         font-size: 14px;
+    }
+
+    .contacts__text{
+        font-size: 12px;
+        margin-bottom: 25px;
     }
 
 }
@@ -1166,8 +1214,9 @@ body{
         font-size: 24px;
     }
 
-    .reviews__item-text{
-        font-size: 14px;
+    .reviews__item-text,
+    .contacts__info{
+        font-size: 12px;
     }
 
 }

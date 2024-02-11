@@ -552,6 +552,17 @@ body{
         font-size: 18px;
     }
 
+    .work__item{
+        font-size: 22px;
+        line-height: 115px;
+        padding-left: 44px;
+    }
+
+    .work__item::before{
+        font-size: 92px;
+        letter-spacing: -10px;
+    }
+
 }
 
 @media (max-width: 900px){
@@ -601,6 +612,16 @@ body{
 
     .prices__item-sum{
         font-size: 16px;
+    }
+
+    .work__item{
+        font-size: 18px;
+        line-height: 85px;
+    }
+
+    .work__item::before{
+        font-size: 82px;
+        letter-spacing: -4px;
     }
 
 }
@@ -769,6 +790,21 @@ body{
         font-size: 16px;
     }
 
+    .work__item{
+        font-size: 16px;
+        line-height: 65px;
+        padding-left: 28px;
+    }
+
+    .work__item::before{
+        font-size: 72px;
+        letter-spacing: -2px;
+    }
+
+    .work__list{
+        gap: 28px;
+    }
+
 }
 
 @media (max-width: 680px) {
@@ -866,6 +902,16 @@ body{
         width: 640px;
         max-height: 464px;
     }
+    
+    .work__item{
+        font-size: 14px;
+        line-height: 55px;
+    }
+
+    .work__item::before{
+        font-size: 62px;
+        letter-spacing: -2px;
+    }
 
 }
 
@@ -911,6 +957,16 @@ body{
         max-width: 520px;
     }
 
+    .work__item{
+        font-size: 12px;
+        line-height: 45px;
+    }
+
+    .work__item::before{
+        font-size: 52px;
+        letter-spacing: -2px;
+    }
+
 }
 
 @media (max-width: 470px){
@@ -944,6 +1000,16 @@ body{
 
     .services__item{
         max-width: 100px;
+    }
+
+    .work__item{
+        font-size: 10px;
+        line-height: 35px;
+    }
+
+    .work__item::before{
+        font-size: 32px;
+        letter-spacing: -2px;
     }
 
 }
@@ -1026,6 +1092,11 @@ body{
     .prices__item-btn{
         padding: 12px;
         font-size: 16px;
+    }
+
+    .work__item{
+        font-size: 7px;
+        line-height: 25px;
     }
 
 }

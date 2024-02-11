@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ZDOROVEKETO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__top">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="ZDOROVEKETO">
+          </a>
+          <nav class="menu">
+            <button class="menu__btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" viewBox="0 0 70 60" fill="none">
+                <path d="M11.6667 15H58.3333M11.6667 30H58.3333M11.6667 45H58.3333" stroke="#0C3E2E" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Про мене</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Сертифікати</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Послуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Відгуки</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__content">
+          <div class="header__content__inner">
+            <div class="header__content__box">
+              <h2 class="header__content__name">Ганна Демченко</h2>
+              <h1 class="header__title">
+                Сертифікований консультант з харчування
+                Кето-коуч
+              </h1>
+              <p class="header__content__text">
+                Допомагаю клієнтам стати на шлях здорового харчування,
+                позбутися надмірної ваги та покращити стан свого здоров’я.
+              </p>
+              <a class="header__content__btn header__content__btn-mob" href="#">Замовити послугу</a>
+            </div>
+            <img class="header__content__img" src="images/header-top.png" alt="me">
+            <a class="header__content__btn header__content__btn-desc" href="#">Замовити послугу</a>
+          </div>
+        </div>
+
+        <!-- <p class="header__text">шлях здорового харчування</p>   -->
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="about">
+      <div class="container">
+        <h2 class="title">
+          Про мене
+        </h2>
+        <div class="about__inner">
+          <img class="about__inner-img" src="images/about.png" alt="about_me">
+          <div class="about__inner-box">
+            <p class="about__text">
+              В професії коуча з харчування моя головна мета - сприяти покращенню здоров'я та добробуту моїх клієнтів. Я
+              прагну надавати персоналізовані послуги та індивідуальний підхід кожній людині, щоб допомогти досягти їх
+              мети та покращити стан здоров'я.
+            </p>
+            <p class="about__text">
+              Мої поради базуються на найновіших дослідженнях у галузі харчування та медицини, а також на моєму власному
+              досвіді та експертності. Я допомагаю клієнтам зрозуміти важливість правильного харчування для здоров’я та
+              довголіття, а також навчаю їх здоровим звичкам і стратегіям для досягнення бажаних результатів.
+            </p>
+            <h3 class="about__inner-title">
+              Мої досягнення
+            </h3>
+            <dl class="about__inner-list">
+              <div>
+                <dt>300+</dt>
+                <dd>Клієнтів</dd>
+              </div>
+              <div>
+                <dt>1500</dt>
+                <dd>Спалених кілограмів</dd>
+              </div>
+              <div>
+                <dt>10000+</dt>
+                <dd>Соцмережі</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container">
+        <h2 class="title">Чому обирають мене?</h2>
+        <p class="why__text">
+          Якісний супровід та консультації, а також ефективні результати клієнтів.
+        </p>
+        <div class="why__inner">
+          <img class="why__img" src="images/why.png" alt="why_me">
+          <ol class="why__inner-list">
+            <li class="why__inner-item">Досвід</li>
+            <li class="why__inner-item pl--60">Персоналізований підхід</li>
+            <li class="why__inner-item pl--90">Супровід та підтримка 24/7</li>
+            <li class="why__inner-item pl--90">Широкий спектр послуг</li>
+            <li class="why__inner-item pl--60">Науково обґрунтований підхід</li>
+            <li class="why__inner-item">Результати клієнтів</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates">
+      <div class="container">
+        <h2 class="title">Сертифікати</h2>
+        <div class="certificates__galery">
+          <div class="certificates__galery-item">
+            <!-- <p class="certificates__galery-text">Сертифікат 1</p> -->
+            <img class="certificates__galery-img" src="images/certificates/1.png" alt="">
+          </div>
+          <div class="certificates__galery-item">
+            <!-- <p class="certificates__galery-text">Сертифікат 2</p> -->
+            <img class="certificates__galery-img" src="images/certificates/2.png" alt="">
+          </div>
+          <div class="certificates__galery-item">
+            <img class="certificates__galery-img" src="images/certificates/3.png" alt="">
+            <!-- <p class="certificates__galery-text">Сертифікат 3</p> -->
+          </div>
+          <div class="certificates__galery-item">
+            <img class="certificates__galery-img" src="images/certificates/4.png" alt="">
+            <!-- <p class="certificates__galery-text">Сертифікат 4</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="services">
+      <div class="container">
+        <h2 class="title">Послуги</h2>
+        <p class="services__text">
+          У моїй практиці я ставлю на персоналізований підхід до кожного клієнта, враховуючи їхні індивідуальні потреби,
+          цілі та обмеження.
+        </p>
+        <ul class="services__list">
+          <li class="services__item">
+            <img class="services__item-img" src="images/services/serv1.svg" alt="">
+            <p class="services__item-text">Меню-конструктор</p>
+          </li>
+          <li class="services__item">
+            <img class="services__item-img" src="images/services/serv2.svg" alt="">
+            <p class="services__item-text">Індивідуальне меню</p>
+          </li>
+          <li class="services__item">
+            <img class="services__item-img" src="images/services/serv3.svg" alt="">
+            <p class="services__item-text">Індивідуальний супровід</p>
+          </li>
+          <li class="services__item">
+            <img class="services__item-img" src="images/services/serv4.svg" alt="">
+            <p class="services__item-text">Консультація</p>
+          </li>
+          <li class="services__item">
+            <img class="services__item-img" src="images/services/serv5.svg" alt="">
+            <p class="services__item-text">Курс «Здорове кето 2.0»</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="prices">
+      <div class="container">
+        <h2 class="title">Тарифи і ціни</h2>
+        <p class="prices__text">
+          Також я можу розглянути бажання клієнта та сформувати індивідуальний пакет послуг, який відповідає його
+          очікуванням та бюджету.
+        </p>
+        <div class="rewies__slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide reviews__item prices__box">              
+                <ul class="prices__list">
+                  <li class="prices__item-title">1. Меню-конструктор:</li> 
+                    <li class="prices__item">Збалансоване меню з розрахунком КБЖВ за стандартним кето</li> 
+                    <li class="prices__item">Меню, яке звільнить вас від щоденного підрахунку</li> 
+                    <li class="prices__item">Меню, що слугує місяцями і гарантує різноманітність</li> 
+                    <li class="prices__item">Вказано час приготування кожної страви</li> 
+                    <li class="prices__item">40+ різних страв для збалансованого харчування</li> 
+                    <li class="prices__item">Рецепти кето-випічки та кето-десертів також з КБЖВ </li> 
+                    <li class="prices__item">Два варіанти калорійності для кожної страви</li> 
+                    <li class="prices__item-sum">Меню - 500 грн</li>
+                    <li class="prices__item-sum">Меню+розрахунок КБЖВ - 600 грн</li>
+                  <li class="prices__item-btninner" href="#">
+                    <a class="prices__item-btn" href="#">Замовити</a>
+                  </li>
+                </ul>
+              
+            </div>
+            <div class="swiper-slide reviews__item prices__box">
+              
+                <ul class="prices__list">
+                  <li class="prices__item-title">2. Індивідуальне меню:</li> 
+                  <li class="prices__item">Ретельно розроблена програма харчування з урахуванням вашого стану здоров’я</li> 
+                  <li class="prices__item">Індивідуальний підхід до ваших харчових потреб</li> 
+                  <li class="prices__item">Програма харчування, яка враховує алергії</li> 
+                  <li class="prices__item">Урахування ваших уподобань в їжі</li> 
+                  <li class="prices__item">Харчування, яке відповідає вашому життєвому стилю</li> 
+                  <li class="prices__item">Найотимальніше харчування, яке підійде саме вам</li>  
+                  <li class="prices__item">Програма харчування, що враховує ваші особисті потреби</li>               
+                  <li class="prices__item-sum">Меню на 1 тиждень  - 350 грн</li>
+                  <li class="prices__item-sum">Меню на 2 тижні - 600 грн</li>
+                  <li class="prices__item-btninner" href="#">
+                    <a class="prices__item-btn" href="#">Замовити</a>
+                  </li>
+                </ul>
+              
+            </div>
+            <div class="swiper-slide reviews__item prices__box">
+              
+                <ul class="prices__list">
+                  <li class="prices__item-title">3. Індивідуальний супровід:</li> 
+                  <li class="prices__item">Персоналізований підхід до досягнення ваших цілей</li> 
+                  <li class="prices__item">Індивідуальні поради протягом всього супроводу</li> 
+                  <li class="prices__item">Стеження за вашим прогресом і адаптація планів харчування</li> 
+                  <li class="prices__item">Допомога у подоланні будь-яких перешкод на шляху до вашої мети</li> 
+                  <li class="prices__item">Індивідуальний підбір електролітів та вітамінів</li> 
+                  <li class="prices__item">Індивідуальне меню, що відповідає вашим потребам</li> 
+                  <li class="prices__item">Адаптація планів харчування відповідно до змін у вашому житті</li>               
+                  <li class="prices__item-sum">Супровід 2 тижні - 1500 грн</li>
+                  <li class="prices__item-sum">Супровід 4 тижні - 2500 грн</li>
+                  <li class="prices__item-btninner" href="#">
+                    <a class="prices__item-btn" href="#">Замовити</a>
+                  </li>
+                </ul>
+              
+            </div>
+            <div class="swiper-slide reviews__item prices__box">
+              
+                <ul class="prices__list">
+                  <li class="prices__item-title">4. Консультація:</li> 
+                  <li class="prices__item">Можливість отримати індивідуальні поради щодо низьковуглеводного харчування</li> 
+                  <li class="prices__item">Обговорення ваших харчових звичок, цілей та потреб під час консультації</li> 
+                  <li class="prices__item">Відповіді на хвилюючі вас питання про харчування</li> 
+                  <li class="prices__item">Розробка персоналізованого плану дій для досягнення ваших цілей</li> 
+                <li class="prices__item">Консультація з фокусом на ваші харчові потреби</li> 
+                  <li class="prices__item">Тривалість консультації - 1 година</li> 
+                  <li class="prices__item">Підбір електролітів та вітамінів, що враховують ваші особисті потреби</li>                             
+                  <li class="prices__item-sum">на 2 тижні 600 грн</li>
+                  <li class="prices__item-btninner" href="#">
+                    <a class="prices__item-btn" href="#">Замовити</a>
+                  </li>
+                </ul>
+              
+            </div>
+            <div class="swiper-slide reviews__item prices__box">
+              
+                <ul class="prices__list">
+                  <li class="prices__item-title">5. Курс «Здорове кето 2.0»:</li> 
+                  <li class="prices__item">Навчитесь розраховувати самостійно своє КБЖВ</li> 
+                  <li class="prices__item">Навчитеся складати свою низьковуглеводну тарілку</li> 
+                  <li class="prices__item">Обрати здорові продукти в магазині</li> 
+                  <li class="prices__item">Здобудете корисні звички для свого здоров'я</li> 
+                  <li class="prices__item">Отримаєте підбір електролітів та меню-конструктор</li> 
+                  <li class="prices__item">Бібліотека книг з харчування та три прямих ефіри зі мною</li> 
+                  <li class="prices__item">Рекомендації на документальні фільми з харчування</li> 
+                  <li class="prices__item">Тривалість курсу 3 тижні. Формати надання інформації: відео, аудіо, PDF</li>                           
+                  <li class="prices__item-sum"> Ціна участі - 699 грн</li>
+                  <li class="prices__item-btninner" href="#">
+                    <a class="prices__item-btn" href="#">Замовити</a>
+                  </li>
+                </ul>
+              
+            </div>
+          </div>
+
+          <div class="reviews__item-arrow reviews__item-prev">
+            <img src="images/arrow-left.svg" alt="left">
+          </div>
+          <div class="reviews__item-arrow reviews__item-next">
+            <img src="images/arrow-right.svg" alt="right">
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!--
+    <section class="work">
+      <div class="container">
+        <h2 class="title">Як я працюю</h2>
+        <ol class="work__list">
+          <li class="work__item">Обговорення запиту клієнта та встановлення цілей</li>
+          <li class="work__item">Отримання інформації від клієнта та попередній аналіз харчування</li>
+          <li class="work__item">Розробка індивідуалізованого плану харчування</li>
+          <li class="work__item">Супровід і підтримка в процесі змін харчування, моніторинг прогресу</li>
+          <li class="work__item">Оцінка результатів, визначення кроків для досягнення цілей</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="container">
+        <h2 class="title">Часті питання</h2>
+        <div class="questions__accordeon accordeon">
+          <div class="accordeon__item">
+            <button class="accordeon__title">Чи можна схуднути на кето дієті?</button>
+            <p class="accordeon__desc">
+              - Так, кето дієта часто сприяє втраті зайвої ваги, оскільки зменшує споживання вуглеводів та спонукає
+              організм використовувати жири як джерело енергії.
+            </p>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">Які продукти можна споживати на кето дієті?</button>
+            <p class="accordeon__desc">
+              - В основному, це продукти з високим вмістом жирів та низьким вмістом вуглеводів, такі як м'ясо, риба,
+              яйця, масла та низьковуглеводні овочі.
+            </p>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">Чи можна споживати фрукти на кето дієті?</button>
+            <p class="accordeon__desc">
+              - Так, але краще обирати низьковуглеводні фрукти, такі як ягоди або авокадо, та обмежити їхнє споживання
+              через вміст природних цукрів.
+            </p>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">Чи можна вживати алкоголь на кето дієті?</button>
+            <p class="accordeon__desc">
+              - Деякі види алкоголю, такі як сухе вино або спиртні напої без цукру, можна вживати у помірних кількостях,
+              проте краще обмежити їхнє споживання.
+            </p>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">Як довго триває період адаптації до кето дієти?</button>
+            <p class="accordeon__desc">
+              - Період адаптації може тривати від кількох днів до кількох тижнів, проте більшість людей помічають
+              полегшення вже протягом перших кількох днів.
+            </p>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">Чи може кето дієта впливати на мій рівень енергії?</button>
+            <p class="accordeon__desc">
+              - Багато людей помічають збільшення енергії та полегшення відчуття ситості на кето дієті, особливо після
+              періоду адаптації.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="title">Відгуки</h2>
+
+        <div class="rewies__slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Юлія, м. Київ
+              </p>
+              <p class="reviews__item-text">
+                Звернулася до цієї ландшафтної компанії за розробкою та втіленням дизайну. Задоволена роботою,
+                дослухалися до всіх моїх побажаннь. Рекомендую!
+              </p>
+            </div>
+            <div class="swiper-slide reviews__item">
+              <p class="reviews__item-name">
+                Олександра, м. Вінниця
+              </p>
+              <p class="reviews__item-text">
+                Дякую за швидкість. Проект повністю відповідає моєму бажанню. Все зробили, прибрали та дали гарні
+                поради, щодо догляду.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="reviews__item-arrow reviews__item-prev">
+            <img src="images/arrow-left.svg" alt="left">
+          </div>
+          <div class="reviews__item-arrow reviews__item-next">
+            <img src="images/arrow-right.svg" alt="right">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <h2 class="title">Контакти</h2>
+        <div class="contacts__inner">
+          <img class="contacts__img" src="images/contacts.png" alt="contacts">
+          <div class="contacts__content">
+            <p class="contacts__text">
+              Шукаєте шлях до здорового схуднення та покращення свого здоровʼя? Потребуєте індивідуальної підтримки та
+              порад від експерта?
+              Напишіть мені, та разом ми створимо план, що відповідає вашим потребам та допоможе досягти вашої мети.
+            </p>
+            <dl class="contacts__info">
+              <dt>Телефон</dt>
+              <dd>
+                <a href="#">+38 096 076 29 55</a>
+              </dd>
+              <dt>Графік роботи</dt>
+              <dd>
+                пн-нд з 8:00 до 20:00 :)
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  </main>
+<!-- 
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Про мене</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Сертифікати</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Послуги</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Відгуки</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="social__list">
+            <li class="social__list-item">
+              <a class="social__list-link" href="#">
+                <img src="images/telegram.svg" alt="telegram">
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__list-link" href="#">
+                <img src="images/instagram.svg" alt="instagram">
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__list-link" href="#">
+                <img src="images/tiktok.svg" alt="tiktok">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__right">
+          <a class="footer__logo" href="#">
+            <img src="images/logo.svg" alt="ZDOROVEKETO">
+          </a>
+          <p class="footer__text">
+            Здорове харчування починається з вас. Зверніться до експерта з харчування вже сьогодні!
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

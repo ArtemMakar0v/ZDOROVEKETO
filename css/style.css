@@ -329,16 +329,19 @@ body{
 }
 
 .accordeon{
-    column-count: 2;
-    gap: 0 22px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0 22px;
 }
 
 .accordeon__item{
+    position: relative;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .accordeon__title{
-    margin-bottom: 15px;
+    display: block;
     font-size: 24px;
     background-color: transparent;
     border: none;
@@ -351,6 +354,7 @@ body{
 }
 
 .accordeon__title::after{
+    display: block;
     content: '';
     position: absolute;
     background-image: url(../images/vector.svg);
@@ -360,8 +364,21 @@ body{
     right: 40px;
 } 
 
+#faq_section .accordeon__desc {
+  overflow: hidden;
+  width: calc(100% - 8%);
+  padding: 5px 2%;
+  transition: all .25s ease-in-out 0s;
+  max-height: 0px;
+  visibility: hidden;
+}
+
 .accordeon__desc{
-    display: none;
+    line-height: 120%;
+    font-size: 16px;
+    margin: 0 0 12px;
+    font-weight: 500;
+    transition: box-shadow .2s ease 0s;
 }
 
 .rewies__slider{
@@ -642,6 +659,10 @@ body{
         font-size: 18px;
     }
 
+    .accordeon__desc{
+        font-size: 14px;
+    }
+
     .contacts__text{
         font-size: 20px;
     }
@@ -832,6 +853,10 @@ body{
         font-size: 16px;
     }
 
+    .accordeon__desc{
+        font-size: 14px;
+    }
+
     .reviews__item-name{
         font-size: 24px;
     }
@@ -982,9 +1007,12 @@ body{
         font-size: 16px;
     }
 
+    .accordeon__desc{
+        font-size: 14px;
+    }
+
     .accordeon{
-        column-count: 1;
-        gap: 0 8px;
+        grid-template-columns: auto;
     }
 
     .accordeon__item{
@@ -1120,6 +1148,10 @@ body{
         font-size: 14px;
     }
 
+    .accordeon__desc{
+        font-size: 12px;
+    }
+
     .contacts__text{
         font-size: 12px;
         margin-bottom: 25px;
@@ -1221,6 +1253,10 @@ body{
 
     .accordeon__title{
         font-size: 12px;
+    }
+
+    .accordeon__desc{
+        font-size: 10px;
     }
 
     .reviews__item-name{

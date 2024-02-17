@@ -71,6 +71,11 @@ body{
     font-style: normal;
 }
 
+.menu__link:hover {
+    color: #FFBA00;
+    transition: 0.2s;
+}
+
 .header__content__inner{
     justify-content: space-between;
     display: flex;

@@ -461,9 +461,20 @@ body{
     margin-bottom: 20px;
 }
 
+.footer__menu-item:hover {
+    color: #FFBA00;
+    transition: 0.2s;
+}
+
 .social__list{
     display: flex;
     gap: 0 30px;
+}
+
+.social__list-link img:hover {
+    width: 24px;
+    height: 24px;
+    transition: 1s;
 }
 
 .footer__right{

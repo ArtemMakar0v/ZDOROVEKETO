@@ -1005,11 +1005,15 @@ body{
 
     .contacts__text{
         font-size: 18px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .contacts__info{
         font-size: 16px;
+    }
+
+    .contacts__info dt{
+        margin-top: 30px;
     }
 
     .footer__text{
@@ -1037,12 +1041,16 @@ body{
     }
 
     .contacts__text{
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 30px;
     }
 
     .contacts__info{
         font-size: 14px;
+    }
+
+    .contacts__info dt{
+        margin-top: 30px;
     }
 }
 
@@ -1111,7 +1119,15 @@ body{
 
     .contacts__text{
         font-size: 14px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
+    }
+
+    .contacts__info{
+        font-size: 14px;
+    }
+
+    .contacts__info dt{
+        margin-top: 20px;
     }
 
 }
@@ -1171,7 +1187,15 @@ body{
 
     .contacts__text{
         font-size: 12px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
+    }
+
+    .contacts__info{
+        font-size: 12px;
+    }
+
+    .contacts__info dt{
+        margin-top: 20px;
     }
 
     .footer__inner{
@@ -1287,6 +1311,23 @@ body{
 
     .social__list{
         gap: 18px;
+    }
+
+    .contacts__inner{
+        gap: 0 12px;
+    }
+    
+    .contacts__text{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .contacts__info{
+        font-size: 10px;
+    }
+
+    .contacts__info dt{
+        margin-top: 15px;
     }
 
 }

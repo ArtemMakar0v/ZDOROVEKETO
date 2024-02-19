@@ -363,6 +363,21 @@ body{
     padding-right: 70px;
     position: relative;
     width: 100%;
+    color: #0C3E2E;
+    @supports (-webkit-touch-callout: none) {
+        display: block;
+        font-size: 24px;
+        background-color: transparent;
+        text-decoration: none;
+        border: none;
+        border-radius: 0;
+        text-align: left;
+        cursor: pointer;
+        padding-right: 70px;
+        position: relative;
+        width: 100%;
+        color: #0C3E2E;
+    }
 }
 
 .accordeon__title::after{

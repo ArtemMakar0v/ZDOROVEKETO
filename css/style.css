@@ -209,6 +209,12 @@ body{
     margin-bottom: 100px;
 }
 
+.certificates__text{
+    max-width: 1200px;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
 .certificates__galery{
     display: flex;
     gap: 20px 20px;
@@ -399,7 +405,7 @@ body{
 }
 
 .reviews__item-text{
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .reviews__item-arrow{
@@ -552,6 +558,12 @@ body{
 
     .why__inner-item.pl--90{
         padding-left: 54px;
+    }
+
+    .certificates__text{
+        max-width: 1000px;
+        font-size: 24px;
+        margin-bottom: 30px;
     }
 
     .services__text{
@@ -1000,7 +1012,7 @@ body{
     }
 
     .reviews__item-text{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .contacts__text{
@@ -1074,6 +1086,12 @@ body{
         margin-top: 20px;
     }
 
+    .certificates__text{
+        max-width: 500px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
     .services__item-img{
         max-width: 100px;
     }
@@ -1114,7 +1132,7 @@ body{
 
     .reviews__item-text,
     .footer__text{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .contacts__text{

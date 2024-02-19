@@ -531,6 +531,13 @@ body{
         margin-bottom: 100px;
     }
 
+    .main{
+        background-image: url(../images/Group_1080.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .container{
         margin-bottom: 100px;
     }
@@ -641,6 +648,14 @@ body{
 }
 
 @media (max-width: 900px){
+
+    .main{
+        background-image: url(../images/Group_900.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .header__content__img,
     .why__img{
         max-width: 375px;
@@ -715,6 +730,13 @@ body{
 
 @media (max-width: 840px) {
 
+    .main{
+        background-image: url(../images/Group_840.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .title{
         font-size: 28px;
     }
@@ -785,6 +807,13 @@ body{
 }
 
 @media (max-width: 780px) {
+
+    .main{
+        background-image: url(../images/Group_780.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
 
     .header{
         margin-bottom: 70px;
@@ -916,6 +945,13 @@ body{
 }
 
 @media (max-width: 680px) {
+
+    .main{
+        background-image: url(../images/Group_680.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
 
     .title{
         margin-bottom: 30px;
@@ -1051,6 +1087,14 @@ body{
 }
 
 @media (max-width: 600px){
+
+    .main{
+        background-image: url(../images/Group_600.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .accordeon__title{
         font-size: 16px;
     }
@@ -1166,6 +1210,14 @@ body{
 }
 
 @media (max-width: 470px){
+
+    .main{
+        background-image: url(../images/Group_470.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
+
     .why__img,
     .contacts__img{
         max-width: 140px;
@@ -1240,6 +1292,13 @@ body{
 
 
 @media (max-width: 400px){
+
+    .main{
+        background-image: url(../images/Group_400.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom center;
+    }
 
     .title{
         font-size: 24px;

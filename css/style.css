@@ -1257,7 +1257,15 @@ body{
     }
 
     .services__item{
-        width: 110px;
+        width: 90px;
+    }
+
+    .services__item-img{
+        max-width: 80px;
+    }
+
+    .services__item-text{
+        font-size: 12px;
     }
 
     .work__item{
@@ -1297,21 +1305,6 @@ body{
     }
 
 }
-
-@media (max-width: 440px){
-    .services__item{
-        width: 90px;
-    }
-
-    .services__item-img{
-        max-width: 80px;
-    }
-
-    .services__item-text{
-        font-size: 12px;
-    }
-}
-
 
 @media (max-width: 400px){
 

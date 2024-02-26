@@ -887,7 +887,11 @@ body{
     }
 
     .services__item{
-        max-width: 180px;
+        width: 200px;
+    }
+
+    .services__item-text{
+        font-size: 16px;
     }
 
     .prices__box{
@@ -1040,7 +1044,11 @@ body{
     }
 
     .services__item{
-        max-width: 140px;
+        width: 180px;
+    }
+
+    .services__item-text{
+        font-size: 14px;
     }
 
     .prices__list{
@@ -1160,11 +1168,11 @@ body{
     }
     
     .services__item{
-        max-width: 110px;
+        width: 140px;
     }
 
     .services__text{
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .prices__text{
@@ -1249,7 +1257,7 @@ body{
     }
 
     .services__item{
-        max-width: 100px;
+        width: 110px;
     }
 
     .work__item{
@@ -1288,6 +1296,20 @@ body{
         gap: 0;
     }
 
+}
+
+@media (max-width: 440px){
+    .services__item{
+        width: 90px;
+    }
+
+    .services__item-img{
+        max-width: 80px;
+    }
+
+    .services__item-text{
+        font-size: 12px;
+    }
 }
 
 
@@ -1423,21 +1445,5 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
